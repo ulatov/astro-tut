@@ -19,6 +19,7 @@ const fontWeight = "bold"
 const textCase = "uppercase"
 
 import '../styles/global.css'
+import Navigation from '../components/Navigation.astro'
 ---
 
 <html lang="en">
@@ -41,9 +42,7 @@ import '../styles/global.css'
 		</style>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about/">About</a>
+        <Navigation />
 		<h1>{pageTitle}</h1>
         <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
         <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
