@@ -4,8 +4,8 @@ title: My Second Blog Post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image: 
-    url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
-    alt: "Thumbnails of websites from the Astro Showcase site."
+  url: "https://docs.astro.build/default-og-image.png"
+  alt: "The word “astro” against an illustration of planets and stars."
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
